@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orange Let's Meet Client", "Orange Let's Meet\Orange Let's Meet Client.csproj", "{1F813978-CAD4-474D-9E10-670653F54DD2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C72889E1-080B-4294-84A6-6ADAECE30200} = {C72889E1-080B-4294-84A6-6ADAECE30200}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orange Let's Meet Lib", "Orange Let's Meet Lib\Orange Let's Meet Lib.csproj", "{C72889E1-080B-4294-84A6-6ADAECE30200}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F813978-CAD4-474D-9E10-670653F54DD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F813978-CAD4-474D-9E10-670653F54DD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F813978-CAD4-474D-9E10-670653F54DD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F813978-CAD4-474D-9E10-670653F54DD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C72889E1-080B-4294-84A6-6ADAECE30200}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C72889E1-080B-4294-84A6-6ADAECE30200}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C72889E1-080B-4294-84A6-6ADAECE30200}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C72889E1-080B-4294-84A6-6ADAECE30200}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3691710C-C652-4B89-A4C4-E3E3C6CFEE2D}
+	EndGlobalSection
+EndGlobal
